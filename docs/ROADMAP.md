@@ -5,8 +5,10 @@
 - [x] Reconstruir o mapa de tabelas (via export XML) → [DATA_MODEL.md](DATA_MODEL.md)
 - [x] Documentar arquitetura e stack → [ARCHITECTURE.md](ARCHITECTURE.md)
 - [x] Documentar o sistema legado → [LEGACY_SICS.md](LEGACY_SICS.md)
-- [ ] Instalar `mdbtools` e extrair esquema real + tabela `usuarios`
-- [ ] Iniciar repositório git e primeiro commit (docs)
+- [x] Instalar `mdbtools` e extrair esquema real + tabela `usuarios`
+- [x] Iniciar repositório git e primeiro commit (docs) — repo público no GitHub
+- [x] Extrair 100% dos dados (banco 2026 + backups 2017/2012/2011 + pasta SICSWIN)
+- [x] Modelagem real por contexto em [modelagem/](modelagem/) (em uso + versão posterior)
 
 ## Fase 1 — Migração de dados
 - [ ] Script `scripts/mdb_dump.sh`: `mdb-schema` + `mdb-export` por tabela

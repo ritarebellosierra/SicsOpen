@@ -43,6 +43,22 @@ Bancos Access encontrados (cópias em datas diferentes):
 > mais recente/completa que a cópia em "Backup Ricardo" (2017, 185 tabelas).
 > Migrar a partir dela. Atenção: caminho de montagem do HD externo pode mudar.
 
+### Comparação das versões (volume real de registros)
+
+| Data | Tabelas | clientes | seguros | Papel |
+|---|---:|---:|---:|---|
+| **2026-05-01** | **189** | **665** | 690 | atual / fonte de verdade |
+| 2017-05-15 | 185 | 512 | **721** | backup |
+| 2012-08-06 | 185 | 457 | **730** | backup |
+| 2011-06-03 | 185 | 371 | 623 | backup |
+| 2016 / 2011 (Suporte) | 187/185 | 0 | 0 | bancos-modelo vazios |
+
+> ⚠️ **Achado importante:** o banco de 2026 tem mais clientes e mais tabelas, mas
+> os backups de 2012/2017 têm **mais apólices** (`seguros`) — apólices antigas
+> foram apagadas ao longo do tempo. Para não perder histórico, a migração deve
+> considerar a **união** das versões, não só a de 2026. Todos os backups com
+> dados foram extraídos para `data/backups/{2017,2012,2011}/`.
+
 Backup exportado pelo programa (na Área de trabalho):
 
 ```

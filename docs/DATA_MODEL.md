@@ -1,4 +1,8 @@
-# Modelo de dados do SICS
+# Modelo de dados do SICS — visão geral
+
+> 📖 **Modelagem detalhada (colunas, tipos, relações) por contexto:**
+> ver **[modelagem/](modelagem/)** — reconstruída do banco vivo de 2026
+> (189 tabelas). Este arquivo é só o **mapa de alto nível** por grupo funcional.
 
 Mapa das tabelas do sistema legado, reconstruído a partir do backup
 `Sicsbkp_1111200113_001.zip` (export XML de 11/11/2020, uma tabela por arquivo)
