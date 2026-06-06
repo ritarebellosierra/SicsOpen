@@ -1,0 +1,34 @@
+# === Dados sensíveis — NUNCA commitar ===
+# Bancos legados do SICS (Access), SQLite migrado, dumps, backups.
+# Contêm dados pessoais de clientes (CPF, endereços, apólices) e logins.
+/data/*
+!/data/README.md
+!/data/.gitkeep
+*.mdb
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+*.zip
+*.xml
+
+# === Rust / Tauri ===
+/src-tauri/target/
+**/target/
+Cargo.lock.bak
+
+# === Frontend (Node) ===
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# === Editor / OS ===
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
